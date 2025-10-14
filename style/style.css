@@ -1,49 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Karla', sans-serif;
-    scroll-behavior: smooth;
-    text-decoration: none;
-    list-style: none;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", monospace;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+:root {
+  --primary-color: #ee9526;
+  --secondary-color: #000000;
+  --bg-color: #f5f5f5;
+  --container:80%;
+  --transition: all 0.3s ease;
+  --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  --width:auto 0px;
 }
 
 body {
-    background: #f5f5f5;
+  font-size: 16px;
+  background-color: var(--bg-color);
+}
+
+.container {
+  width: var(--container);
+  margin: 0 auto;
 }
 
 /* Navbar Styles */
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 10%;
-    background-color: #ffffff;
-    height: 120px;
-    border-bottom: 1px solid #ee9526;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 12%;
+  background-color: #ffffff;
+  height: 120px;
+  border-bottom: 1px solid #ee9526;
 }
 
 .logo {
-    bottom: 10px;
-    width: 110px;
-    cursor: pointer;
+  bottom: 10px;
+  width: 110px;
+  cursor: pointer;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 nav ul li a {
-    font-size: 16px;
-    color: #000000;
-    font-weight: 500;
-    transition: 0.3s;
-    text-transform: uppercase;
-    font-weight: bold;
+  color: #000000;
+  font-weight: 500;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 /* Hover effect for navigation links */
 /* The dropdown container */
@@ -91,7 +106,7 @@ nav ul li a {
 }
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #ee9526;
 }
 
 /* Show the dropdown menu on hover */
@@ -101,14 +116,33 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    color: #ee9526;
+  color: #ee9526;
 }
 
 nav .btn-academy a {
-    padding: 10px 25px;
-    background-color: #ee9526;
-    color: #000000;
-    font-weight: 600;
-    transition: 0.3s;
-    text-transform: uppercase;
+  padding: 10px 25px;
+  background-color: #ee9526;
+  color: #000000;
+  font-weight: 600;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+/* Hero Section Styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(1, 4, 23, 0.947), rgb(1, 1, 5)), url("/img/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+  background-position: center;
+  background-clip: border-box;
+  background-position-x: center;
+}
+.hero-text {
+  color: #ffffff;
 }
