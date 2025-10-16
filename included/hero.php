@@ -11,7 +11,10 @@
             <div class="hero-text">
                 <h1>Welcome to Our Team the Black Aigles</h1>
                 <p>Your journey to excellence starts here.</p>
-                <a href="#services" class="btn">Explore Services</a>
+            </div>
+            <div class="hero-btn">
+                <a href="#services" class="btn-explore">Explore Services</a>
+                <a href="#services" class="btn-more">More information</a>
             </div>
         </section>
     </main>
