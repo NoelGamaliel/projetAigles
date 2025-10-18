@@ -16,7 +16,7 @@
                     <img src="./img/logo.png" alt="Logo" class="logo">
                 </a>
                 <ul>
-                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="index.php" id="active">Accueil</a></li>
                     <div class="dropdown">
                         <button class="dropbtn">Le Club</button>
                         <div class="dropdown-content">
