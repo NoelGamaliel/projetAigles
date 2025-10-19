@@ -11,6 +11,7 @@
         // Using absolute paths to include files
         include './included/header.php';
         include './included/hero.php';
+        include './included/actu.php';
         include './included/about.php';
         include './included/content.php';
         include './included/footer.php';

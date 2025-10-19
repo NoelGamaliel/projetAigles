@@ -14,7 +14,7 @@
   --primary-color: #ee9526;
   --secondary-color: #000000;
   --bg-color: #f5f5f5;
-  --container:80%;
+  --container:70%;
   --transition: all 0.3s ease-in-out;
   --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   --width:0 auto;
@@ -194,4 +194,40 @@ nav .btn-academy a:hover{
 .hero-btn .btn-more:hover {
   background-color: #ee9526;
   color: #000000;
+}
+
+/* Actualites Section Styles */
+.actualites {
+  padding: 20px 0;
+  background-color: #ffffff;
+  height: 120vh;
+}
+
+.full-news {
+  display: grid;
+  grid-template-areas:
+    "card-new-1 card-new-2 card-new-3"
+    "card-new-1 card-new-4 card-new-5";
+  grid-gap: 20px;
+  border: 1px solid #cccfff;
+}
+.card-new-1 {
+  grid-area: card-new-1;
+  background-color: #ee9526;
+}
+.card-new-2 {
+  grid-area: card-new-2;
+  background-color: aquamarine;
+}
+.card-new-3 {
+  grid-area: card-new-3;
+  background-color: coral;
+}
+.card-new-4 {
+  grid-area: card-new-4;
+  background-color: lightblue;
+}
+.card-new-5 {
+  grid-area: card-new-5;
+  background-color: lightgreen;
 }
