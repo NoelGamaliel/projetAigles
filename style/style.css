@@ -203,6 +203,11 @@ nav .btn-academy a:hover{
   height: 120vh;
 }
 
+.container .section-title {
+  padding: 20px 0;
+}
+
+
 .full-news {
   display: grid;
   grid-template-areas:
@@ -213,21 +218,19 @@ nav .btn-academy a:hover{
 }
 .card-new-1 {
   grid-area: card-new-1;
-  background-color: #ee9526;
 }
 .card-new-2 {
   grid-area: card-new-2;
-  background-color: aquamarine;
+  
 }
 .card-new-3 {
-  grid-area: card-new-3;
-  background-color: coral;
+  grid-area: card-new
 }
 .card-new-4 {
   grid-area: card-new-4;
-  background-color: lightblue;
+
 }
 .card-new-5 {
   grid-area: card-new-5;
-  background-color: lightgreen;
+  
 }
