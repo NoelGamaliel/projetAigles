@@ -18,6 +18,7 @@
   --transition: all 0.3s ease-in-out;
   --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   --width:0 auto;
+  --widh-img:100%;
 }
 
 body {
@@ -150,7 +151,7 @@ nav .btn-academy a:hover{
   justify-content: center;
   height: 80vh;
   text-align: center;
-  background: linear-gradient(to bottom, rgba(1, 4, 23, 0.947), rgb(1, 1, 5)), url("/img/back.jpg");
+  background: linear-gradient(to bottom, rgba(1, 4, 23, 0.532), rgb(1, 1, 5)), url("/img/back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment:scroll;
@@ -207,30 +208,19 @@ nav .btn-academy a:hover{
   padding: 20px 0;
 }
 
-
-.full-news {
+.card-last-news {
   display: grid;
-  grid-template-areas:
-    "card-new-1 card-new-2 card-new-3"
-    "card-new-1 card-new-4 card-new-5";
-  grid-gap: 20px;
-  border: 1px solid #cccfff;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border: 1px solid #ee9526;
 }
-.card-new-1 {
-  grid-area: card-new-1;
-}
-.card-new-2 {
-  grid-area: card-new-2;
-  
-}
-.card-new-3 {
-  grid-area: card-new
-}
-.card-new-4 {
-  grid-area: card-new-4;
 
+.card-last-movie {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border: 1px solid #ee9526;
 }
-.card-new-5 {
-  grid-area: card-new-5;
-  
-}
+
+
+

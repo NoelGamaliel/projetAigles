@@ -10,33 +10,25 @@
         <section class="actualites" id="actu">
             <div class="container">
                 <h1 class="section-title">Actualités</h1>
-                <div class="full-news">
-                    <div class="card-new-1">
-                        <a href="">
-                            <img src="#" alt="images-1" srcset="" class="img-news">
-                        </a>
+                <div class="card-full-news">
+                    <h2>Derniere Actualités</h2>
+                    <div class="card-last-news">
+                        <div class="last-news">
+                            
+                        </div>
+                        <div class="last-news">
 
+                        </div>
+                        <div class="last-news">
+
+                        </div>
                     </div>
-                    <div class="card-new-2">
-                        <a href="">
-                            <img src="#" alt="images-1" srcset="" class="img-news">
-                        </a>
+                    <h2>Derniere Video</h2>
+                    <div class="card-last-movie">
+                        <div class="last-movie">1</div>
+                        <div class="last-movie">2</div>
+                        <div class="last-movie">3</div>
                     </div>
-                    <div class="card-new-3">
-                        <a href="">
-                            <img src="#" alt="images-1" srcset="" class="img-news">
-                        </a>
-                    </div> 
-                    <div class="card-new-4">
-                        <a href="">
-                            <img src="#" alt="images-1" srcset="" class="img-news">
-                        </a>
-                    </div> 
-                    <div class="card-new-5">
-                        <a href="">
-                            <img src="#" alt="images-1" srcset="" class="img-news">
-                        </a>
-                    </div> 
                 </div>
             </div> 
         </section>
