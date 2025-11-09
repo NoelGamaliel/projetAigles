@@ -10,6 +10,7 @@
 
         // Using absolute paths to include files
         include './included/header.php';
+        include './included/home.php';
         include './included/hero.php';
         include './included/actu.php';
         include './included/about.php';

@@ -12,9 +12,9 @@
 
 :root {
   --primary-color: #ee9526;
-  --secondary-color: #000000;
+  --secondary-color: #000000c1;
   --bg-color: #f5f5f5;
-  --container:78%;
+  --container:70%;
   --transition: all 0.3s ease-in-out;
   --box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   --width:0 auto;
@@ -156,8 +156,6 @@ nav .btn-academy a:hover{
   background-size: cover;
   background-attachment:scroll;
   background-position: center;
-  background-clip: border-box;
-  background-position-x: center;
 }
 
 .hero-text {
@@ -172,6 +170,11 @@ nav .btn-academy a:hover{
 .hero-text p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+}
+
+.hero-text p > span {
+  color: #ee9526;
+  font-style: italic;
 }
 
 .hero-btn .btn-explore {
@@ -199,27 +202,67 @@ nav .btn-academy a:hover{
 
 /* Actualites Section Styles */
 .actualites {
-  padding: 20px 0;
+  padding: 15px 0;
   background-color: #ffffff;
-  height: 120vh;
+  height: 100vh;
 }
 
 .container .section-title {
-  padding: 20px 0;
+  text-transform: uppercase;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0; 
+}
+
+.container .section-title::before {
+  content: "";
+  top:55px;
+  position: absolute;
+  border: 2px solid #ee9526;
+  width: 5%;
+}
+
+.card-full-news h2 {
+  padding: 20px 0px;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .card-last-news {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  border: 1px solid #ee9526;
+}
+
+.last-news-actu {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.last-news-img img {
+  height: auto;
+  width: 100%;
+}
+
+.last-news-content {
+  padding: 10px 10px;
+}
+
+.last-news-content .last-news-description {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.last-news-content span > a {
+  color: #ee9526;
 }
 
 .card-last-movie {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  border: 1px solid #ee9526;
 }
 
 
